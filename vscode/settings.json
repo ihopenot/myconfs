@@ -1,0 +1,151 @@
+{
+    "editor.lineNumbers": "relative",
+    "workbench.editor.showTabs": "multiple",
+    "editor.minimap.enabled": false,
+    "vim.leader": " ",
+    // "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+     "vim.handleKeys": {
+        "<C-b>": false,
+        "<C-f>": false,
+        "<C-h>": false,
+        "<a-k>": false,
+        "<a-j>": false
+    },
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "l",
+                "f"
+            ],
+            "commands": [
+                "editor.action.formatDocument"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w"
+            ],
+            "commands": [
+                "workbench.action.files.save"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "e"
+            ],
+            "commands": [
+                "workbench.action.toggleSidebarVisibility"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "o"
+            ],
+            "commands": [
+                "workbench.action.toggleAuxiliaryBar"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "c"
+            ],
+            "commands": [
+                "workbench.action.closeActiveEditor"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "t"
+            ],
+            "commands": [
+                "workbench.action.terminal.focus"
+            ]
+        },
+        // goto keymappings
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "editor.action.showHover"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "a"
+            ],
+            "commands": [
+                "editor.action.quickFix"
+            ]
+        },
+        {
+            "before": [
+                "L"
+            ],
+            "commands": [
+                "workbench.action.nextEditor"
+            ]
+        },
+        {
+            "before": [
+                "H"
+            ],
+            "commands": [
+                "workbench.action.previousEditor"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "h"
+            ],
+            "after": [
+                ":",
+                "n",
+                "o",
+                "h",
+                "<cr>"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "b",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.showEditorsInActiveGroup"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "g",
+                "a"
+            ],
+            "commands": [
+                "editor.action.quickFix"
+            ]
+        }
+    ],
+    "vim.easymotion": true,
+}
